@@ -27,7 +27,7 @@ class _GameScreenState extends State<GameScreen> {
 
   void _resetGame() {
     setState(() {
-      _board = List.generate(3, (_) => List.generate(3, (_) => " "));
+      _board = List.generate(3, (_) => List.generate(3, (_) => ""));
       _currentPlayer = "X";
       _winner = "";
       _gameover = false;
