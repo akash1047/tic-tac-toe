@@ -93,10 +93,11 @@ class _GameScreenState extends State<GameScreen> {
       body: SingleChildScrollView(
         child: Column(children: [
           SizedBox(
-            height: 120,
+            height: 150,
             child: Column(
               children: [
-                SizedBox(height: 50,),
+                SizedBox( height: 30,),
+                
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -135,7 +136,7 @@ class _GameScreenState extends State<GameScreen> {
             decoration: BoxDecoration(
                 color: Color(0xFF5F6884),
                 borderRadius: BorderRadius.circular(10)),
-            margin: EdgeInsets.all(5),
+            margin: EdgeInsets.all(2),
             child: GridView.builder(
                 itemCount: 9,
                 shrinkWrap: true,
